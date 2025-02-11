@@ -20,7 +20,16 @@ import Link from 'next/link';
 import { CURRENCIES } from '~/lib/currency';
 import { env } from '~/env';
 
-const categories = {
+type CategoryItem = Record<string, string>;
+
+type Category = {
+  name: string;
+  items: CategoryItem[];
+};
+
+type Categories = Record<string, Category>;
+
+const categories: Categories = {
   entertainment: {
     name: 'Entertainment',
     items: [
