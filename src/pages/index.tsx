@@ -24,19 +24,19 @@ export default function Home() {
         <title>SplitPro: Split Expenses with your friends for free</title>
         <meta name="description" content="SplitPro: Split Expenses with your friends for free" />
         <link rel="icon" href="/favicon.ico" />
-        {process.env.NODE_ENV === 'production' && (
+        {/*process.env.NODE_ENV === 'production' && (
           <>
             <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
             <noscript>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              {/* <img
                 src="https://queue.simpleanalyticscdn.com/noscript.gif"
                 alt=""
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </noscript>
           </>
-        )}
+        )} */}
       </Head>
       <main className="min-h-screen">
         <nav className="sticky mx-auto flex max-w-5xl items-center justify-between px-4   py-4 lg:px-0 lg:py-5">
@@ -53,14 +53,14 @@ export default function Home() {
           <div>
             <div className=" mb-32 text-center lg:mb-0 lg:h-[70vh] lg:text-left">
               <h1 className="max-w-3xl text-center text-2xl font-semibold leading-loose text-gray-100 lg:text-left lg:text-5xl lg:leading-[4rem]">
-                Split Expenses with your friends for{' '}
+                Split Expenses with friends of Sai for{' '}
                 <span className="font-bold text-primary">free</span>.
               </h1>
               <h2 className="mt-5  text-gray-300  lg:mt-8 lg:text-lg">
                 An{' '}
                 <a
                   className="text-primary hover:underline"
-                  href="https://github.com/oss-apps/split-pro"
+                  href="https://github.com/kingavatar/split-pro"
                   target="_blank"
                 >
                   open source
@@ -74,7 +74,7 @@ export default function Home() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://github.com/oss-apps/split-pro"
+                  href="https://github.com/kingavatar/split-pro"
                   target="_blank"
                   className="mx-auto lg:mx-0"
                 >
@@ -186,34 +186,17 @@ export default function Home() {
             </div>
 
             <div className="mb-20 mt-24 flex flex-col gap-8 text-center lg:text-left">
-              <a
-                href="https://www.producthunt.com/posts/splitpro?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-splitpro"
-                target="_blank"
-              >
-                <img
-                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=444717&theme=light"
-                  alt="Splitpro - Free&#0032;drop&#0032;in&#0032;replacement&#0032;&#0032;to&#0032;Splitwise&#0058;&#0032;Fully&#0032;Open&#0032;source | Product Hunt"
-                  className="mx-auto h-[47px] w-[200px] lg:mx-0"
-                  width="200"
-                  height="47"
-                />
-              </a>
               <div>
-                Built by{' '}
-                <a className=" text-primary" href="https://koushik.dev" target="_blank">
-                  KM Koushik
+                Tweaked by{' '}
+                <a className=" text-primary" href="https://saikiranreddy.dev" target="_blank">
+                  kingavatar
                 </a>
-                {/* <p className="text-gray-400">
-                  A product of <a className="underline underline-offset-2">ossapps.dev</a>
-                </p> */}
+                {' '}for his friends and family
               </div>
               <div className="flex justify-center gap-4 lg:justify-start">
-                <a className="text-primary" href="https://twitter.com/KM_Koushik_" target="_blank">
-                  Twitter
-                </a>
                 <a
                   className="text-primary"
-                  href="https://github.com/oss-apps/split-pro"
+                  href="https://github.com/kingavatar/split-pro"
                   target="_blank"
                 >
                   Github

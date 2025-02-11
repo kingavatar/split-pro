@@ -12,7 +12,7 @@ const config = {
         App
       </Link>
       <Separator orientation="vertical" className="h-5" />
-      <Link href="https://github.com/oss-apps/split-pro" target="_blank">
+      <Link href="https://github.com/kingavatar/split-pro" target="_blank">
         Github
       </Link>
       <Separator orientation="vertical" className="h-5" />
